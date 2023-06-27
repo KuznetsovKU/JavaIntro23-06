@@ -1,9 +1,10 @@
 package org.example;
 
-import org.example.Homework1to2.Calculator.Calculator;
-import org.example.Homework1to2.Calculator.CalculatorService;
-import org.example.Homework1to2.Hw2Ex1;
+import org.example.Homework1to3.Calculator.CalculatorService;
+import org.example.Homework1to3.Hw2Ex1;
+import org.example.Homework1to3.Hw3;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
@@ -37,11 +38,18 @@ public class Main {
 //        System.out.println(calculator.sum(2, 3));
 //        System.out.println(calculator.subtraction(7, 3));
 
-        Hw2Ex1 hw2Ex1 = new Hw2Ex1();
-        int[] res = hw2Ex1.bubbleSort(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 9, 9, 9});
-        System.out.println(Arrays.toString(res));
+//        Hw2Ex1 hw2Ex1 = new Hw2Ex1();
+//        int[] res = hw2Ex1.bubbleSort(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 9, 9, 9});
+//        System.out.println(Arrays.toString(res));
+//
+//        CalculatorService cs = new  CalculatorService();
+//        System.out.println(cs.getSolution());
 
-        CalculatorService cs = new  CalculatorService();
-        System.out.println(cs.getSolution());
+        Hw3 hw3 = new Hw3();
+        ArrayList<Integer> myList = new ArrayList<>(Arrays.asList(2, 4, 7, 3, 6, 3, 9, 4, 1, 6, 8, 9, 1));
+        System.out.println(hw3.getMinValue(myList));
+        System.out.println(hw3.getMaxValue(myList));
+        System.out.println(hw3.getAverageValue(myList));
+        System.out.println(hw3.deleteAllEvenNumbers(myList));
     }
 }

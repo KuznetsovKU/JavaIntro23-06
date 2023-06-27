@@ -1,4 +1,4 @@
-package org.example.Homework1to2;
+package org.example.Homework1to3;
 
 import java.io.IOException;
 import java.util.Arrays;

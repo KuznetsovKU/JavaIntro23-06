@@ -3,17 +3,6 @@ package org.example.Seminar3;
 
 import java.util.*;
 
-/**
- * Задание
- *
- * Пусть дан произвольный список целых чисел.
- *
- * 1) Нужно удалить из него чётные числа
- * 2) Найти минимальное значение
- * 3) Найти максимальное значение
- * 4) Найти среднее значение
- */
-
 public class MainS3 {
     public static void main(String[] args) {
 //        S3Task1 s3Task1 = new S3Task1();
