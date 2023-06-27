@@ -1,4 +1,4 @@
-package org.example.Homework1.Calculator;
+package org.example.Homework1to2.Calculator;
 
 public class Calculator {
     public int sum(int value1, int value2) {
