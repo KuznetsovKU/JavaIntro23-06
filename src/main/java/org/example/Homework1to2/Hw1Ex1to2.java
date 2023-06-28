@@ -1,4 +1,4 @@
-package org.example.Homework1;
+package org.example.Homework1to2;
 
 public class Hw1Ex1to2 {
     public int triangleNumber(int num) {

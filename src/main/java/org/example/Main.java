@@ -1,8 +1,8 @@
 package org.example;
 
-import org.example.Homework1.Calculator.Calculator;
-import org.example.Homework1.Hw1Ex1to2;
-import org.example.Seminar1.*;
+import org.example.Homework1to2.Calculator.Calculator;
+import org.example.Homework1to2.Calculator.CalculatorService;
+import org.example.Homework1to2.Hw2Ex1;
 
 import java.util.Arrays;
 
@@ -33,8 +33,15 @@ public class Main {
 //        System.out.println(hw1Ex1To3.factorial(5));
 //        hw1Ex1To3.simpleNumPrinter(1000);
 
-        Calculator calculator = new Calculator();
-        System.out.println(calculator.sum(2, 3));
-        System.out.println(calculator.subtraction(7, 3));
+//        Calculator calculator = new Calculator();
+//        System.out.println(calculator.sum(2, 3));
+//        System.out.println(calculator.subtraction(7, 3));
+
+        Hw2Ex1 hw2Ex1 = new Hw2Ex1();
+        int[] res = hw2Ex1.bubbleSort(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 9, 9, 9});
+        System.out.println(Arrays.toString(res));
+
+        CalculatorService cs = new  CalculatorService();
+        System.out.println(cs.getSolution());
     }
 }
