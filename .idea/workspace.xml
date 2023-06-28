@@ -47,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Personal documents/Education/=Projects/Java_Intro"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Personal documents/Education/=Projects/Java_Intro&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
+}</component>
+  <component name="RunManager" selected="Application.MainS2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="JavaIntro23-05.main" />
@@ -109,10 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.HW6.Main" />
+        <item itemvalue="Application.MainS2" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainS3" />
         <item itemvalue="Application.MainS2" />
-        <item itemvalue="Application.org.example.HW6.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
