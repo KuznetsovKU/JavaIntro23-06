@@ -6,6 +6,8 @@ import org.example.Homework1to3.Hw3;
 import org.example.Homework4.Hw4Ex1to2;
 import org.example.Homework4.Hw4Ex3;
 import org.example.Homework5.Hw5Ex1;
+import org.example.Homework6.Infrastructure;
+import org.example.Homework6.Laptop;
 
 import java.util.*;
 
@@ -72,19 +74,25 @@ public class Main {
 //        Hw4Ex3 hw4Ex3 = new Hw4Ex3();
 //        hw4Ex3.solution(someArray);
 
-        Hw5Ex1 hw5Ex1 = new Hw5Ex1();
-        hw5Ex1.showPhoneBook();
-        hw5Ex1.addContactOrPhone("Janet", "7657657654");
-        hw5Ex1.addContactOrPhone("Janet", "7657657655");
-        hw5Ex1.addContactOrPhone("Janet", "7657657656");
-        hw5Ex1.addContactOrPhone("Janet", "7657657657");
-        hw5Ex1.addContactOrPhone("Janet", "7657657658");
-        hw5Ex1.addContactOrPhone("Janet", "7657657659");
-        hw5Ex1.addContactOrPhone("Janet", "7657657660");
-        hw5Ex1.addContactOrPhone("Mike", "9219219211");
-        hw5Ex1.addContactOrPhone("Mike", "9219219212");
-        hw5Ex1.addContactOrPhone("Mike", "9219219213");
-        System.out.println("After adding new contacts:");
-        hw5Ex1.showPhoneBook();
+//        Hw5Ex1 hw5Ex1 = new Hw5Ex1();
+//        hw5Ex1.showPhoneBook();
+//        hw5Ex1.addContactOrPhone("Janet", "7657657654");
+//        hw5Ex1.addContactOrPhone("Janet", "7657657655");
+//        hw5Ex1.addContactOrPhone("Janet", "7657657656");
+//        hw5Ex1.addContactOrPhone("Janet", "7657657657");
+//        hw5Ex1.addContactOrPhone("Janet", "7657657658");
+//        hw5Ex1.addContactOrPhone("Janet", "7657657659");
+//        hw5Ex1.addContactOrPhone("Janet", "7657657660");
+//        hw5Ex1.addContactOrPhone("Mike", "9219219211");
+//        hw5Ex1.addContactOrPhone("Mike", "9219219212");
+//        hw5Ex1.addContactOrPhone("Mike", "9219219213");
+//        System.out.println("After adding new contacts:");
+//        hw5Ex1.showPhoneBook();
+
+        List<Laptop> laptopList = new ArrayList<>(Infrastructure.makeLaptopList(10));
+        Infrastructure.printStorage(laptopList);
+        System.out.println();
+        Infrastructure.printStorage(Infrastructure.getFilteredList(laptopList,
+                Infrastructure.getBenchmark(new LinkedHashMap<>(Infrastructure.getClientChoice()))));
     }
 }
